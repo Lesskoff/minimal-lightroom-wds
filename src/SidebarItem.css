@@ -1,0 +1,26 @@
+.sidebarItem {
+  border: none;
+  padding: 20px;
+  background-color: transparent;
+  /* color: #fff; */
+  font-size: 0.9rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.sidebarItem:hover,
+.sidebarItem:focus {
+  background-color: #bdbdbd;
+}
+
+.sidebarItem:first-child {
+  border-top: 4px solid #bdbdbd;
+}
+.sidebarItem {
+  border-bottom: 4px solid #bdbdbd;
+}
+
+.sidebarItem.active {
+  background-color: #999;
+}
